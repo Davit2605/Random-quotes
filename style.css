@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: "Courier New", Courier, monospace;
+  }
+
+  .bg-img {
+    position: fixed;
+    z-index: -1;
+    background-image: url("https://images.unsplash.com/photo-1541140134513-85a161dc4a00?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+  }
+
+  .container {
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    border-radius: 15px;
+    width: 90%;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .heading {
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .quote {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .author {
+    font-size: 25px;
+    margin: 10px;
+    font-style: italic;
+  }
+  
+  .btn {
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 15px;
+    margin-top: 15px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-color: rgba(255, 255, 255, 0.6);
+    border-width: 3px;
+    text-transform: uppercase;
+    width: 300px;
+    font-weight: 600;
+  }
+
+  .btn:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    transition: all 300ms ease ease-in-out;
+    color: green;
+  }
